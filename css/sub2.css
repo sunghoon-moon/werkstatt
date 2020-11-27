@@ -1,0 +1,42 @@
+/* sub2 */
+#materials {
+    width: 100%;
+    height: 1650px;
+    min-width: 1200px;
+    /* outline: 1px solid red; */
+}
+#materials > .content {
+    width: 1200px;
+    margin: 0 auto;
+}
+#materials > .content {
+    position: relative;
+}
+#materials > .content > .img {
+    width: 1200px;
+    height: 900px;
+    /* outline: 1px solid red; */
+    margin-bottom: 20px;
+}
+#materials > .content > .img > h1 {
+    width: 265px;
+    height: 90px;
+    position: absolute;
+    font-size: 60px;
+    left: calc(50% - 132.5px);
+    top: 20%;
+    text-shadow: 2px 2px #000;
+}
+#materials > .content > .img > img {
+    width: 598px;
+    /* margin-right: 10px; */
+}
+#materials > .content > p {
+    font-family: 'Hind Siliguri', sans-serif;
+    padding: 10px;
+}
+#materials > .content > p > span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #777;
+}

@@ -1,0 +1,88 @@
+/* sub1_1 */
+#collection {
+    width: 100%;
+    height: 1110px;
+    min-width: 1200px;
+    /* outline: 1px solid red; */
+}
+#collection > h1 {
+    text-align: center;
+    font-size: 45px;
+    margin: 100px 0;
+}
+#collection > .collection {
+    width: 1200px;
+    margin: 0 auto;
+}
+#collection > .collection > div {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition-duration: 0.4s;
+}
+#collection > .collection > div:nth-child(3),
+#collection > .collection > div:nth-child(6) {margin-right: 0;}
+#collection a {
+    display: none;
+    line-height: 300px;
+    width: 386.6px;
+    height: 300px;
+    font-size: 30px;
+    transition-duration: 0.4s;
+}
+#collection .newstyle {
+    width: 386.6px;
+    height: 300px;
+    background-image: url('../images/product/new_style.jpg');
+    text-align: center;
+}
+#collection .rings {
+    width: 386.6px;
+    height: 300px;
+    background-image: url('../images/product/rings.jpg');
+    text-align: center;
+}
+#collection .bracelets {
+    width: 386.6px;
+    height: 300px;
+    background-image: url('../images/product/bracelets.jpg');
+    text-align: center;
+}
+#collection .necklaces {
+    width: 386.6px;
+    height: 300px;
+    background-image: url('../images/product/necklace.jpg');
+    text-align: center;
+}
+#collection .silver_ware {
+    width: 386.6px;
+    height: 300px;
+    background-image: url('../images/product/silver_ware.jpg');
+    text-align: center;
+}
+#collection .other {
+    width: 386.6px;
+    height: 300px;
+    background-image: url('../images/product/other_silver_goods.jpg');
+    text-align: center;
+}
+#collection .leather {
+    width: 386.6px;
+    height: 300px;
+    background-image: url('../images/product/leather_goods.jpg');
+    text-align: center;
+}
+#collection .cashmere {
+    width: 386.6px;
+    height: 300px;
+    background-image: url('../images/product/cashmere.jpg');
+    text-align: center;
+}
+#collection > .collection > div:hover a {
+    display: block;
+    transition-duration: 0.4s;
+}
+#collection > .collection > div:hover {
+    opacity: 0.7;
+    transition-duration: 0.4s;
+}
